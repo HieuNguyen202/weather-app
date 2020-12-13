@@ -101,3 +101,5 @@ app.get('*', (req, res) => {
 app.listen(port, () => {
     console.log(`Server is up on port ${port}`)
 })
+
+// TODO: add a button that allows user to get current location
